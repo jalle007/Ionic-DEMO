@@ -36,7 +36,7 @@ import { AdvancedSocialPage as CardAdvancedSocialPage } from '../pages/cards/adv
 import { AdvancedWeatherPage as CardAdvancedWeatherPage } from '../pages/cards/advanced-weather/pages';
 import { BackgroundPage as CardBackgroundPage } from '../pages/cards/background/pages';
 import { BasicPage as CardBasicPage } from '../pages/cards/basic/pages';
-import { HeaderPage as CardHeaderPage } from '../pages/cards/header/pages';
+//import { HeaderPage as CardHeaderPage } from '../pages/cards/header/pages';
 import { ImagePage as CardImagePage } from '../pages/cards/image/pages';
 import { ListPage as CardListPage } from '../pages/cards/list/pages';
 // checkboxes
