@@ -1,26 +1,27 @@
 // action sheets
-import { BasicPage as ActionSheetBasicPage} from '../pages/action-sheets/basic/pages';
+//import { BasicPage as ActionSheetBasicPage} from '../pages/action-sheets/basic/pages';
 
 // alerts
 import { BasicPage as AlertBasicPage } from '../pages/alerts/basic/pages';
-import { CheckboxPage as AlertCheckboxPage } from '../pages/alerts/checkbox/pages';
-import { ConfirmPage as AlertConfirmPage } from '../pages/alerts/confirm/pages';
-import { PromptPage as AlertPromptPage } from '../pages/alerts/prompt/pages';
-import { RadioPage as AlertRadioPage } from '../pages/alerts/radio/pages';
+//import { CheckboxPage as AlertCheckboxPage } from '../pages/alerts/checkbox/pages';
+//import { ConfirmPage as AlertConfirmPage } from '../pages/alerts/confirm/pages';
+//import { PromptPage as AlertPromptPage } from '../pages/alerts/prompt/pages';
+//import { RadioPage as AlertRadioPage } from '../pages/alerts/radio/pages';
 
 // badges
 import { BasicPage as BadgeBasicPage } from '../pages/badges/basic/pages';
 
 // buttons
 import { BasicPage as ButtonBasicPage } from '../pages/buttons/basic/pages';
-import { BlockPage as ButtonBlockPage } from '../pages/buttons/block/pages';
-import { ClearPage as ButtonClearPage } from '../pages/buttons/clear/pages';
 import { ComponentsPage as ButtonComponentsPage } from '../pages/buttons/components/pages';
-import { FullPage as ButtonFullPage } from '../pages/buttons/full/pages';
-import { IconsPage as ButtonIconsPage } from '../pages/buttons/icons/pages';
-import { OutlinePage as ButtonOutlinePage } from '../pages/buttons/outline/pages';
-import { RoundPage as ButtonRoundPage } from '../pages/buttons/round/pages';
-import { SizesPage as ButtonSizesPage } from '../pages/buttons/sizes/pages';
+
+//import { BlockPage as ButtonBlockPage } from '../pages/buttons/block/pages';
+//import { ClearPage as ButtonClearPage } from '../pages/buttons/clear/pages';
+//import { FullPage as ButtonFullPage } from '../pages/buttons/full/pages';
+//import { IconsPage as ButtonIconsPage } from '../pages/buttons/icons/pages';
+//import { OutlinePage as ButtonOutlinePage } from '../pages/buttons/outline/pages';
+//import { RoundPage as ButtonRoundPage } from '../pages/buttons/round/pages';
+//import { SizesPage as ButtonSizesPage } from '../pages/buttons/sizes/pages';
 
 // fabs
 import { BasicPage as FabBasicPage } from '../pages/fabs/basic/pages';
@@ -160,26 +161,26 @@ export function hasScrollbar() {
 
 export function getPages() {
   return {
-    'overview': ActionSheetBasicPage,
-    'action-sheets': ActionSheetBasicPage,
-    'alert': AlertBasicPage,
-    'alert-confirm': AlertConfirmPage,
-    'alert-prompt': AlertPromptPage,
-    'alert-radio': AlertRadioPage,
-    'alert-checkbox': AlertCheckboxPage,
+    'overview': AlertBasicPage,
+    //'overview': ActionSheetBasicPage,
+    //'action-sheets': ActionSheetBasicPage,
+    //'alert-confirm': AlertConfirmPage,
+    //'alert-prompt': AlertPromptPage,
+    //'alert-radio': AlertRadioPage,
+    //'alert-checkbox': AlertCheckboxPage,
     'badges': BadgeBasicPage,
     'buttons': ButtonBasicPage,
-    'block-buttons': ButtonBlockPage,
-    'clear-buttons': ButtonClearPage,
-    'full-buttons': ButtonFullPage,
-    'outline-buttons': ButtonOutlinePage,
-    'round-buttons': ButtonRoundPage,
+    //'block-buttons': ButtonBlockPage,
+    //'clear-buttons': ButtonClearPage,
+    //'full-buttons': ButtonFullPage,
+    //'outline-buttons': ButtonOutlinePage,
+    //'round-buttons': ButtonRoundPage,
     'buttons-in-components': ButtonComponentsPage,
-    'button-sizes': ButtonSizesPage,
+    //'button-sizes': ButtonSizesPage,
     'fabs': FabBasicPage,
-    'icon-buttons': ButtonIconsPage,
-    'cards': CardBasicPage,
-    'card-header': CardHeaderPage,
+    //'icon-buttons': ButtonIconsPage,
+  //  'cards': CardBasicPage,
+   // 'card-header': CardHeaderPage,
     'card-list': CardListPage,
     'card-image': CardImagePage,
     'card-background': CardBackgroundPage,

@@ -3,7 +3,7 @@ import { Config, Menu, NavController, Platform } from 'ionic-angular';
 
 import * as helpers from '../directives/helpers';
 import { PageOne, PageTwo, PageThree } from '../pages/menus/basic/pages';
-import { BasicPage } from '../pages/action-sheets/basic/pages';
+import { BasicPage } from '../pages/alerts/basic/pages';
 
 @Component({
   templateUrl: 'app.template.html'

@@ -8,26 +8,26 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
-// action sheets
-import { BasicPage as ActionSheetBasicPage } from '../pages/action-sheets/basic/pages';
 // alerts
 import { BasicPage as AlertBasicPage } from '../pages/alerts/basic/pages';
-import { CheckboxPage as AlertCheckboxPage } from '../pages/alerts/checkbox/pages';
-import { ConfirmPage as AlertConfirmPage } from '../pages/alerts/confirm/pages';
-import { PromptPage as AlertPromptPage } from '../pages/alerts/prompt/pages';
-import { RadioPage as AlertRadioPage } from '../pages/alerts/radio/pages';
+// action sheets
+//import { BasicPage as ActionSheetBasicPage } from '../pages/action-sheets/basic/pages';
+//import { CheckboxPage as AlertCheckboxPage } from '../pages/alerts/checkbox/pages';
+//import { ConfirmPage as AlertConfirmPage } from '../pages/alerts/confirm/pages';
+//import { PromptPage as AlertPromptPage } from '../pages/alerts/prompt/pages';
+//import { RadioPage as AlertRadioPage } from '../pages/alerts/radio/pages';
 // badges
 import { BasicPage as BadgeBasicPage } from '../pages/badges/basic/pages';
 // buttons
 import { BasicPage as ButtonBasicPage } from '../pages/buttons/basic/pages';
-import { BlockPage as ButtonBlockPage } from '../pages/buttons/block/pages';
-import { ClearPage as ButtonClearPage } from '../pages/buttons/clear/pages';
 import { ComponentsPage as ButtonComponentsPage } from '../pages/buttons/components/pages';
-import { FullPage as ButtonFullPage } from '../pages/buttons/full/pages';
-import { IconsPage as ButtonIconsPage } from '../pages/buttons/icons/pages';
-import { OutlinePage as ButtonOutlinePage } from '../pages/buttons/outline/pages';
-import { RoundPage as ButtonRoundPage } from '../pages/buttons/round/pages';
-import { SizesPage as ButtonSizesPage } from '../pages/buttons/sizes/pages';
+//import { BlockPage as ButtonBlockPage } from '../pages/buttons/block/pages';
+//import { ClearPage as ButtonClearPage } from '../pages/buttons/clear/pages';
+//import { FullPage as ButtonFullPage } from '../pages/buttons/full/pages';
+//import { IconsPage as ButtonIconsPage } from '../pages/buttons/icons/pages';
+//import { OutlinePage as ButtonOutlinePage } from '../pages/buttons/outline/pages';
+//import { RoundPage as ButtonRoundPage } from '../pages/buttons/round/pages';
+//import { SizesPage as ButtonSizesPage } from '../pages/buttons/sizes/pages';
 // fabs
 import { BasicPage as FabBasicPage } from '../pages/fabs/basic/pages';
 // cards
@@ -122,22 +122,22 @@ AppModule = __decorate([
     NgModule({
         declarations: [
             MyApp,
-            ActionSheetBasicPage,
             AlertBasicPage,
-            AlertCheckboxPage,
-            AlertConfirmPage,
-            AlertPromptPage,
-            AlertRadioPage,
+            //ActionSheetBasicPage,
+            //AlertCheckboxPage,
+            //AlertConfirmPage,
+            //AlertPromptPage,
+            //AlertRadioPage,
             BadgeBasicPage,
             ButtonBasicPage,
-            ButtonBlockPage,
-            ButtonClearPage,
             ButtonComponentsPage,
-            ButtonFullPage,
-            ButtonIconsPage,
-            ButtonOutlinePage,
-            ButtonRoundPage,
-            ButtonSizesPage,
+            //ButtonBlockPage,
+            //ButtonClearPage,
+            //ButtonFullPage,
+            //ButtonIconsPage,
+            //ButtonOutlinePage,
+            //ButtonRoundPage,
+            //ButtonSizesPage,
             FabBasicPage,
             CardAdvancedMapPage,
             CardAdvancedSocialPage,
@@ -212,22 +212,22 @@ AppModule = __decorate([
                 statusbarPadding: true,
             }, {
                 links: [
-                    { component: ActionSheetBasicPage, name: 'ActionSheetBasicPage', segment: 'action-sheet-basic' },
                     { component: AlertBasicPage, name: 'AlertBasicPage', segment: 'alert-basic' },
-                    { component: AlertCheckboxPage, name: 'AlertCheckboxPage', segment: 'alert-checkbox' },
-                    { component: AlertConfirmPage, name: 'AlertConfirmPage', segment: 'alert-confirm' },
-                    { component: AlertPromptPage, name: 'AlertPromptPage', segment: 'alert-prompt' },
-                    { component: AlertRadioPage, name: 'AlertRadioPage', segment: 'alert-radio' },
+                    //{ component: ActionSheetBasicPage, name: 'ActionSheetBasicPage', segment: 'action-sheet-basic' },
+                    //{ component: AlertCheckboxPage, name: 'AlertCheckboxPage', segment: 'alert-checkbox' },
+                    //{ component: AlertConfirmPage, name: 'AlertConfirmPage', segment: 'alert-confirm' },
+                    //{ component: AlertPromptPage, name: 'AlertPromptPage', segment: 'alert-prompt' },
+                    //{ component: AlertRadioPage, name: 'AlertRadioPage', segment: 'alert-radio' },
                     { component: BadgeBasicPage, name: 'BadgeBasicPage', segment: 'badge-basic' },
                     { component: ButtonBasicPage, name: 'ButtonBasicPage', segment: 'button-basic' },
-                    { component: ButtonBlockPage, name: 'ButtonBlockPage', segment: 'button-block' },
-                    { component: ButtonClearPage, name: 'ButtonClearPage', segment: 'button-clear' },
                     { component: ButtonComponentsPage, name: 'ButtonComponentsPage', segment: 'button-components' },
-                    { component: ButtonFullPage, name: 'ButtonFullPage', segment: 'button-full' },
-                    { component: ButtonIconsPage, name: 'ButtonIconsPage', segment: 'button-icons' },
-                    { component: ButtonOutlinePage, name: 'ButtonOutlinePage', segment: 'button-outline' },
-                    { component: ButtonRoundPage, name: 'ButtonRoundPage', segment: 'button-round' },
-                    { component: ButtonSizesPage, name: 'ButtonSizesPage', segment: 'button-sizes' },
+                    //{ component: ButtonBlockPage, name: 'ButtonBlockPage', segment: 'button-block' },
+                    //{ component: ButtonClearPage, name: 'ButtonClearPage', segment: 'button-clear' },
+                    //{ component: ButtonFullPage, name: 'ButtonFullPage', segment: 'button-full' },
+                    //{ component: ButtonIconsPage, name: 'ButtonIconsPage', segment: 'button-icons' },
+                    //{ component: ButtonOutlinePage, name: 'ButtonOutlinePage', segment: 'button-outline' },
+                    //{ component: ButtonRoundPage, name: 'ButtonRoundPage', segment: 'button-round' },
+                    //{ component: ButtonSizesPage, name: 'ButtonSizesPage', segment: 'button-sizes' },
                     { component: FabBasicPage, name: 'FabBasicPage', segment: 'fab-basic' },
                     { component: CardAdvancedMapPage, name: 'CardAdvancedMapPage', segment: 'card-advanced-map' },
                     { component: CardAdvancedSocialPage, name: 'CardAdvancedSocialPage', segment: 'card-advanced-social' },
@@ -296,22 +296,22 @@ AppModule = __decorate([
         bootstrap: [IonicApp],
         entryComponents: [
             MyApp,
-            ActionSheetBasicPage,
             AlertBasicPage,
-            AlertCheckboxPage,
-            AlertConfirmPage,
-            AlertPromptPage,
-            AlertRadioPage,
+            //ActionSheetBasicPage,
+            //AlertCheckboxPage,
+            //AlertConfirmPage,
+            //AlertPromptPage,
+            //AlertRadioPage,
             BadgeBasicPage,
             ButtonBasicPage,
-            ButtonBlockPage,
-            ButtonClearPage,
             ButtonComponentsPage,
-            ButtonFullPage,
-            ButtonIconsPage,
-            ButtonOutlinePage,
-            ButtonRoundPage,
-            ButtonSizesPage,
+            //ButtonBlockPage,
+            //ButtonClearPage,
+            //ButtonFullPage,
+            //ButtonIconsPage,
+            //ButtonOutlinePage,
+            //ButtonRoundPage,
+            //ButtonSizesPage,
             FabBasicPage,
             CardAdvancedMapPage,
             CardAdvancedSocialPage,

@@ -3,11 +3,11 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\pages",
-    "\\src\\pages\\cards",
+    "\\src\\directives",
     "\\src\\pages\\cards\\advanced-social",
-    "\\src\\pages\\fabs\\basic"
+    "\\src\\pages\\grid\\basic",
+    "\\src\\pages\\lists\\avatar"
   ],
-  "SelectedNode": "\\src\\pages\\cards\\advanced-social\\template.html",
+  "SelectedNode": "\\src\\app\\app.component.ts",
   "PreviewInSolutionExplorer": false
 }
