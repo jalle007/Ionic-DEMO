@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jaib\source\repos\ionic-preview-app\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="f45cc16cddf84fe973276701982a24a8a4da7e80">
+        <dex dex="C:\Users\jaib\source\repos\ionic-preview-app\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_8c5c187635c00b9e1091e4dd9adfef331f8cc663.jar" />
+    </item>
+
+</items>
