@@ -1,6 +1,6 @@
 # Ionic Demo App
 
-This app accompanies the Ionic component documentation.
+This app is showcase of Ionic components.
 
-[[LIVE DEMO]](http://ionicframework.com/docs/components/)
+[[LIVE DEMO]](https://singlepage20181005105817.azurewebsites.net/)
 

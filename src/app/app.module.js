@@ -35,7 +35,7 @@ import { AdvancedMapPage as CardAdvancedMapPage } from '../pages/cards/advanced-
 import { AdvancedSocialPage as CardAdvancedSocialPage } from '../pages/cards/advanced-social/pages';
 import { AdvancedWeatherPage as CardAdvancedWeatherPage } from '../pages/cards/advanced-weather/pages';
 import { BackgroundPage as CardBackgroundPage } from '../pages/cards/background/pages';
-import { BasicPage as CardBasicPage } from '../pages/cards/basic/pages';
+//import { BasicPage as CardBasicPage } from '../pages/cards/basic/pages';
 //import { HeaderPage as CardHeaderPage } from '../pages/cards/header/pages';
 import { ImagePage as CardImagePage } from '../pages/cards/image/pages';
 import { ListPage as CardListPage } from '../pages/cards/list/pages';
@@ -143,8 +143,8 @@ AppModule = __decorate([
             CardAdvancedSocialPage,
             CardAdvancedWeatherPage,
             CardBackgroundPage,
-            CardBasicPage,
-            CardHeaderPage,
+            //CardBasicPage,
+            //CardHeaderPage,
             CardImagePage,
             CardListPage,
             CheckboxBasicPage,
@@ -233,8 +233,8 @@ AppModule = __decorate([
                     { component: CardAdvancedSocialPage, name: 'CardAdvancedSocialPage', segment: 'card-advanced-social' },
                     { component: CardAdvancedWeatherPage, name: 'CardAdvancedWeatherPage', segment: 'card-advanced-weather' },
                     { component: CardBackgroundPage, name: 'CardBackgroundPage', segment: 'card-background' },
-                    { component: CardBasicPage, name: 'CardBasicPage', segment: 'card-basic' },
-                    { component: CardHeaderPage, name: 'CardHeaderPage', segment: 'card-header' },
+                    //{ component: CardBasicPage, name: 'CardBasicPage', segment: 'card-basic' },
+                    //{ component: CardHeaderPage, name: 'CardHeaderPage', segment: 'card-header' },
                     { component: CardImagePage, name: 'CardImagePage', segment: 'card-image' },
                     { component: CardListPage, name: 'CardListPage', segment: 'card-list' },
                     { component: CheckboxBasicPage, name: 'CheckboxBasicPage', segment: 'checkbox-basic' },
@@ -317,8 +317,8 @@ AppModule = __decorate([
             CardAdvancedSocialPage,
             CardAdvancedWeatherPage,
             CardBackgroundPage,
-            CardBasicPage,
-            CardHeaderPage,
+            //CardBasicPage,
+            //CardHeaderPage,
             CardImagePage,
             CardListPage,
             CheckboxBasicPage,
